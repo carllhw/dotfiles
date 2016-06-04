@@ -56,7 +56,7 @@ plugins=(git)
 export GOPATH=$HOME/Projects/gopath
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
-PATH="$PATH:$HOME/.multirust/bin:$HOME/.multirust/cargo/bin:/usr/local/go/bin:$GOPATH/bin"
+PATH="/usr/local/go/bin:$GOPATH/bin:$HOME/.cargo/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
