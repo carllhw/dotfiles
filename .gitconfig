@@ -16,3 +16,8 @@
 [core]
 	autocrlf = input
 	editor = vim
+	quotepath = false
+[pull]
+	rebase = true
+[init]
+	defaultBranch = master
